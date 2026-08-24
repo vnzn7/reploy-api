@@ -7,7 +7,7 @@ import './App.css'
 function App() {
   //Crie duas cosnt para guardar e carregar tarefas
   const [tarefas, setTarefas] = useState([])
-  const [carregando, setCarregando] = useState(true)
+  const [carregando, setCarregando] = useState(false)
 
   //useeffect com fetch (requisições assíncronas) para carregar as tarefas do backend
   useEffect(() => {

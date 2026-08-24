@@ -4,5 +4,5 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/projeto-api', //Nome do repo no GH, criar o repositorio
+  base: '/reploy-api/',
 })
